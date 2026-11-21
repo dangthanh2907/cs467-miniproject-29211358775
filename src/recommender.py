@@ -1,12 +1,15 @@
 """Recommenders: popularity baseline, NLP content-based, and a hybrid (content + CF + sentiment)."""
+from collections import Counter
+
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
-from nlp_pipeline import TextModel, sentiment_score
+from nlp_pipeline import TextModel, pros_cons, sentiment_score
 
 HYBRID_USER_WEIGHTS = (0.5, 0.3, 0.2)  # content, item-based CF, sentiment
 HYBRID_QUERY_WEIGHTS = (0.8, 0.2)      # content, sentiment
+LIKED_RATING = 4                       # reviews with rating >= 4 enrich the item text
 
 
 class Recommender:
@@ -16,7 +19,22 @@ class Recommender:
         self.min_count = min_count
         self.ids = self.items.item_id.tolist()
         self.pos = {iid: i for i, iid in enumerate(self.ids)}
-        self.text = TextModel(self.items)
+
+        # item document = spec text + positive buyer reviews (only from the given ratings,
+        # so a train/test split never leaks test reviews into the TF-IDF vocabulary)
+        liked = ratings[ratings.rating >= LIKED_RATING]
+        liked_reviews = liked.groupby("item_id").buyer_review.apply(" ".join).to_dict()
+        self.text = TextModel(self.items, reviews=liked_reviews)
+
+        # pros / cons words found in each item's reviews (lexicon based)
+        self.pros_cons_by_item = {}
+        for iid, group in ratings.groupby("item_id"):
+            pros, cons = Counter(), Counter()
+            for review in group.buyer_review:
+                p, c = pros_cons(review)
+                pros.update(p)
+                cons.update(c)
+            self.pros_cons_by_item[iid] = (pros, cons)
 
         # user x item rating matrix (NaN = not rated)
         self.matrix = ratings.pivot_table(index="user_id", columns="item_id",
@@ -50,9 +68,22 @@ class Recommender:
         out["score"] = s.round(3)
         return out.reset_index()
 
+    def pros_cons_text(self, item_id, n=2):
+        """Short pros/cons summary from the item's buyer reviews, e.g. '+ great, light | - heavy'."""
+        if item_id not in self.pros_cons_by_item:
+            return "no reviews yet"
+        pros, cons = self.pros_cons_by_item[item_id]
+        plus = ", ".join(w for w, _ in pros.most_common(n)) or "-"
+        minus = ", ".join(w for w, _ in cons.most_common(n)) or "-"
+        return f"+ {plus} | - {minus}"
+
     def _with_keywords(self, top, vec):
         top["keywords"] = [", ".join(self.text.keywords(vec, self.pos[i])) for i in top.item_id]
+        top["pros_cons"] = [self.pros_cons_text(i) for i in top.item_id]
         return top
+
+    def has_user(self, user_id):
+        return user_id in self.matrix.index
 
     def _content(self, vec):
         """Cosine similarity of vec to every item, scaled so the best match = 1."""
