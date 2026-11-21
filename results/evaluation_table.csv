@@ -1,0 +1,4 @@
+Method,Precision@5,RMSE,MAE
+Popularity,0.06,1.22,0.995
+Content-based,0.141,0.96,0.779
+Hybrid,0.115,0.985,0.802

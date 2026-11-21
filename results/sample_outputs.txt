@@ -1,0 +1,29 @@
+=== TEST 1: Use-case query (Hybrid) ===
+Query: 'lightweight student laptop with long battery for coding'
+item_id               model_name category  price_usd  score                           keywords                      pros_cons
+    L05      HP Pavilion Aero 13   laptop        799  0.893       coding, student, lightweight  + great, good | - slow, laggy
+    L01        MacBook Air 13 M2   laptop       1099  0.848  coding, lightweight, long battery + great, smooth | - laggy, dim
+    L06     ASUS Zenbook 14 OLED   laptop        899  0.797    lightweight, long battery, long  + great, long | - laggy, slow
+    L07         Acer Swift Go 14   laptop        749  0.796 student, lightweight, long battery + great, bright | - laggy, hot
+    L20 Acer Chromebook Spin 714   laptop        699  0.792    long battery, long, lightweight  + great, long | - laggy, slow
+
+
+=== TEST 2: Alternative items similar to P05 (Samsung Galaxy S24) ===
+item_id               model_name   category  price_usd  score                              keywords                            pros_cons
+    P04 Samsung Galaxy S24 Ultra smartphone       1299  0.301                 flagship, camera, s24   + long, great | - bulky, expensive
+    P12                Xiaomi 14 smartphone        899  0.196        compact, triple camera, triple     + decent, sharp | - weak, drains
+    P01            iPhone 15 Pro smartphone        999  0.190                flagship, camera, love     + sharp, bright | - weak, drains
+    P06       Samsung Galaxy A55 smartphone        449  0.154 display 50mp, samsung, samsung galaxy       + great, long | - heavy, bulky
+    P18   Samsung Galaxy Z Flip5 smartphone        999  0.134      compact, samsung galaxy, samsung + bright, sharp | - expensive, buggy
+
+
+=== TEST 3: Cold-start (new laptop L99 has spec text only, 0 ratings) ===
+Query: 'lightweight student laptop with long battery for coding'
+item_id             model_name category  price_usd  score                           keywords                      pros_cons
+    L99 NovaBook Lite 14 (new)   laptop        899  0.900    student laptop, coding, student                 no reviews yet
+    L05    HP Pavilion Aero 13   laptop        799  0.635       coding, student, lightweight  + great, good | - slow, laggy
+    L01      MacBook Air 13 M2   laptop       1099  0.624  coding, long battery, lightweight + great, smooth | - laggy, dim
+    L07       Acer Swift Go 14   laptop        749  0.589 student, long battery, lightweight + great, bright | - laggy, hot
+    L06   ASUS Zenbook 14 OLED   laptop        899  0.580    long battery, lightweight, long  + great, long | - laggy, slow
+L99 recommended in Top-5: True (rank 1)
+
