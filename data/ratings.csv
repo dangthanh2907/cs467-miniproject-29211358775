@@ -1,0 +1,244 @@
+user_id,item_id,rating,buyer_review
+U01,L01,5,Good pick for coding in class: smooth and fast for coding and great for classes and note taking
+U01,L03,4,Very satisfied for coding in class: great for classes and note taking and very light and easy to carry
+U01,L04,4,Very satisfied for coding in class: smooth and fast for coding and very light and easy to carry
+U01,L05,5,Good pick for coding in class: very light and easy to carry and great for classes and note taking
+U01,L06,5,Really like it for coding in class: great for classes and note taking and long battery life is great
+U01,L08,2,Disappointed for coding in class: slow and laggy when compiling code and feels heavy and bulky
+U01,L10,2,Disappointed for coding in class: bulky and awkward to carry around and feels heavy and bulky and too expensive for what it offers
+U01,L11,2,Disappointed for coding in class: bulky and awkward to carry around and slow and laggy when compiling code
+U01,L13,1,Would not recommend for coding in class: slow and laggy when compiling code and bulky and awkward to carry around and too expensive for what it offers
+U01,L14,3,It is okay for coding in class: very light and easy to carry but slow and laggy when compiling code
+U01,L16,3,It is okay for coding in class: very light and easy to carry but slow and laggy when compiling code
+U01,L17,3,Decent choice for coding in class: great for classes and note taking but slow and laggy when compiling code
+U01,L18,4,Very satisfied for coding in class: smooth and fast for coding and very light and easy to carry
+U01,L20,5,Happy with this for coding in class: long battery life is great and great for classes and note taking
+U01,P01,2,Would not recommend for coding in class: the battery is weak and drains fast and slow and laggy when compiling code
+U01,P03,2,Regret buying this for coding in class: feels heavy and bulky and the battery is weak and drains fast
+U01,P06,3,It is okay for coding in class: long battery life is great but feels heavy and bulky
+U01,P08,2,Would not recommend for coding in class: the battery is weak and drains fast and bulky and awkward to carry around
+U01,P12,2,Would not recommend for coding in class: the battery is weak and drains fast and slow and laggy when compiling code
+U01,P16,3,Mixed feelings for coding in class: long battery life is great but feels heavy and bulky
+U02,L01,3,Decent choice for PC gaming: acceptable overall but the screen is dim
+U02,L04,1,Disappointed for PC gaming: gets hot and laggy in games and slow and laggy under load and too expensive for what it offers
+U02,L05,3,It is okay for PC gaming: acceptable overall but slow and laggy under load
+U02,L06,2,Would not recommend for PC gaming: slow and laggy under load and gets hot and laggy in games
+U02,L07,3,It is okay for PC gaming: the screen is bright and sharp but gets hot and laggy in games
+U02,L08,2,Regret buying this for PC gaming: gets hot and laggy in games and the screen is dim
+U02,L09,1,Would not recommend for PC gaming: slow and laggy under load and gets hot and laggy in games
+U02,L12,3,It is okay for PC gaming: fast and smooth for games but the screen is dim
+U02,L14,4,Good pick for PC gaming: the screen is bright and sharp
+U02,L15,3,Mixed feelings for PC gaming: the screen is bright and sharp but gets hot and laggy in games
+U02,L18,3,It is okay for PC gaming: fast and smooth performance but the screen is dim
+U02,L20,2,Regret buying this for PC gaming: gets hot and laggy in games and slow and laggy under load
+U02,P01,4,Happy with this for PC gaming: fast and smooth performance and the screen is bright and sharp
+U02,P02,3,It is okay for PC gaming: the screen is bright and sharp but slow and laggy under load
+U02,P03,2,Disappointed for PC gaming: gets hot and laggy in games and slow and laggy under load
+U02,P05,3,Mixed feelings for PC gaming: the screen is bright and sharp but slow and laggy under load
+U02,P11,3,Mixed feelings for PC gaming: fast and smooth performance but gets hot and laggy in games
+U02,P18,3,Mixed feelings for PC gaming: the screen is bright and sharp but slow and laggy under load
+U02,P19,3,It is okay for PC gaming: the screen is bright and sharp but gets hot and laggy in games
+U03,L06,3,It is okay for photography: the screen is bright and sharp but disappointing for the price
+U03,L08,1,Regret buying this for photography: the screen is dim and the camera is poor in low light
+U03,L11,2,Regret buying this for photography: the screen is dim and the camera is poor in low light
+U03,L14,4,Very satisfied for photography: the screen is bright and sharp
+U03,L15,3,Decent choice for photography: the screen is bright and sharp but the camera is poor in low light
+U03,L16,2,Regret buying this for photography: disappointing for the price and the camera is poor in low light and too expensive for what it offers
+U03,P01,5,Very satisfied for photography: love the flagship feel and the camera is sharp and amazing
+U03,P02,4,Good pick for photography: the camera is sharp and amazing and the screen is bright and sharp
+U03,P03,3,It is okay for photography: acceptable overall but the camera is poor in low light
+U03,P04,5,Good pick for photography: the screen is bright and sharp and love the flagship feel
+U03,P05,5,Very satisfied for photography: the screen is bright and sharp and love the flagship feel
+U03,P06,2,Regret buying this for photography: disappointing for the price and the camera is poor in low light
+U03,P07,2,Regret buying this for photography: the screen is dim and the camera is poor in low light
+U03,P12,3,Decent choice for photography: the camera is sharp and amazing but disappointing for the price
+U03,P14,3,Mixed feelings for photography: the screen is bright and sharp but disappointing for the price
+U03,P15,3,Decent choice for photography: the screen is bright and sharp but disappointing for the price
+U03,P17,4,Good pick for photography: the camera is sharp and amazing and the screen is bright and sharp
+U03,P20,2,Disappointed for photography: disappointing for the price and the screen is dim
+U04,L02,3,Mixed feelings as a cheap study machine: long battery life is great but too expensive for what it offers
+U04,L03,3,Mixed feelings as a cheap study machine: great for classes and note taking but too expensive for what it offers
+U04,L05,4,Really like it as a cheap study machine: long battery life is great and great value and worth the price
+U04,L07,4,Happy with this as a cheap study machine: great value and worth the price and great for classes and note taking
+U04,L08,4,Good pick as a cheap study machine: great value and worth the price and great for classes and note taking
+U04,L09,4,Very satisfied as a cheap study machine: great for classes and note taking and great value and worth the price
+U04,L10,1,Regret buying this as a cheap study machine: bulky and awkward to carry around and the battery is weak and drains fast and too expensive for what it offers
+U04,L13,1,Disappointed as a cheap study machine: too expensive for what it offers and bulky and awkward to carry around
+U04,L14,1,Regret buying this as a cheap study machine: bulky and awkward to carry around and too expensive for what it offers
+U04,L18,1,Regret buying this as a cheap study machine: bulky and awkward to carry around and the battery is weak and drains fast and too expensive for what it offers
+U04,P03,2,Would not recommend as a cheap study machine: bulky and awkward to carry around and the battery is weak and drains fast
+U04,P10,3,Mixed feelings as a cheap study machine: long battery life is great but too expensive for what it offers
+U04,P11,4,Very satisfied as a cheap study machine: great value and worth the price and long battery life is great
+U04,P15,4,Good pick as a cheap study machine: great value and worth the price and long battery life is great
+U04,P19,2,Would not recommend as a cheap study machine: bulky and awkward to carry around and too expensive for what it offers
+U04,P20,4,Happy with this as a cheap study machine: long battery life is great and great value and worth the price
+U05,L01,4,Very satisfied for business travel: very light and easy to carry and long battery life is great
+U05,L04,4,Really like it for business travel: very light and easy to carry and solid and reliable
+U05,L07,4,Good pick for business travel: very light and easy to carry and long battery life is great
+U05,L09,3,Mixed feelings for business travel: long battery life is great but feels flimsy for work
+U05,L19,4,Really like it for business travel: reliable for work and meetings and very light and easy to carry
+U05,L20,5,Really like it for business travel: very light and easy to carry and long battery life is great
+U05,P01,3,Decent choice for business travel: acceptable overall but buggy and unreliable
+U05,P02,3,Decent choice for business travel: solid and reliable but feels flimsy for work
+U05,P04,3,Decent choice for business travel: long battery life is great but feels heavy and bulky
+U05,P07,3,Decent choice for business travel: long battery life is great but feels heavy and bulky
+U05,P08,3,Mixed feelings for business travel: solid and reliable but feels heavy and bulky
+U05,P09,3,Mixed feelings for business travel: solid and reliable but feels flimsy for work
+U05,P10,3,Mixed feelings for business travel: long battery life is great but feels flimsy for work
+U05,P12,2,Regret buying this for business travel: feels flimsy for work and the battery is weak and drains fast
+U05,P15,3,Mixed feelings for business travel: long battery life is great but feels flimsy for work
+U05,P19,3,Decent choice for business travel: long battery life is great but feels flimsy for work
+U06,L02,5,Happy with this for video editing and design: the screen is bright and sharp and premium and sturdy build
+U06,L04,2,Disappointed for video editing and design: the screen is dim and disappointing for editing work
+U06,L05,2,Would not recommend for video editing and design: the screen is dim and disappointing for editing work
+U06,L06,4,Really like it for video editing and design: the screen is bright and sharp and excellent for editing and design
+U06,L09,2,Regret buying this for video editing and design: slow and laggy under load and feels cheap and flimsy
+U06,L10,5,Really like it for video editing and design: the screen is bright and sharp and fast and smooth performance
+U06,L13,4,Very satisfied for video editing and design: premium and sturdy build and the screen is bright and sharp
+U06,L15,2,Disappointed for video editing and design: disappointing for editing work and slow and laggy under load
+U06,L16,4,Very satisfied for video editing and design: excellent for editing and design and the screen is bright and sharp
+U06,L17,3,It is okay for video editing and design: acceptable overall but disappointing for editing work
+U06,L18,3,Mixed feelings for video editing and design: fast and smooth performance but disappointing for editing work
+U06,L19,4,Good pick for video editing and design: the screen is bright and sharp and premium and sturdy build
+U06,L20,2,Disappointed for video editing and design: disappointing for editing work and slow and laggy under load
+U06,P02,4,Very satisfied for video editing and design: premium and sturdy build and the screen is bright and sharp
+U06,P04,5,Happy with this for video editing and design: fast and smooth performance and the screen is bright and sharp
+U06,P07,2,Regret buying this for video editing and design: slow and laggy under load and disappointing for editing work
+U06,P09,2,Would not recommend for video editing and design: slow and laggy under load and disappointing for editing work
+U06,P18,4,Very satisfied for video editing and design: the screen is bright and sharp and premium and sturdy build
+U06,P19,4,Very satisfied for video editing and design: the screen is bright and sharp and premium and sturdy build
+U07,L04,1,Disappointed as my daily phone: bulky in the pocket and the battery is weak and drains fast and too expensive for what it offers
+U07,L19,1,Disappointed as my daily phone: the battery is weak and drains fast and bulky in the pocket and too expensive for what it offers
+U07,P01,1,Regret buying this as my daily phone: the battery is weak and drains fast and bulky in the pocket and too expensive for what it offers
+U07,P04,3,It is okay as my daily phone: long battery life is great but too expensive for what it offers
+U07,P05,2,Regret buying this as my daily phone: the battery is weak and drains fast and too expensive for what it offers
+U07,P06,4,Really like it as my daily phone: great value and worth the price and long battery life is great
+U07,P07,4,Really like it as my daily phone: great value and worth the price and long battery life is great
+U07,P09,2,Regret buying this as my daily phone: the battery is weak and drains fast and too expensive for what it offers
+U07,P12,3,Decent choice as my daily phone: compact and light in the pocket but too expensive for what it offers
+U07,P13,4,Good pick as my daily phone: long battery life is great and great value and worth the price
+U07,P14,2,Regret buying this as my daily phone: bulky in the pocket and too expensive for what it offers
+U07,P15,4,Really like it as my daily phone: long battery life is great and great value and worth the price
+U07,P16,3,Decent choice as my daily phone: long battery life is great but bulky in the pocket
+U07,P17,1,Regret buying this as my daily phone: too expensive for what it offers and the battery is weak and drains fast
+U07,P19,1,Regret buying this as my daily phone: bulky in the pocket and too expensive for what it offers
+U07,P20,3,Mixed feelings as my daily phone: long battery life is great but bulky in the pocket
+U08,L01,2,Disappointed for mobile gaming: gets hot and laggy in games and slow and laggy under load
+U08,L03,1,Disappointed for mobile gaming: the battery is weak and drains fast and slow and laggy under load
+U08,L06,3,Decent choice for mobile gaming: long battery life is great but slow and laggy under load
+U08,L10,2,Regret buying this for mobile gaming: the battery is weak and drains fast and too expensive for what it offers
+U08,L12,4,Good pick for mobile gaming: fast and smooth for games and fast and smooth performance
+U08,P01,2,Disappointed for mobile gaming: gets hot and laggy in games and the battery is weak and drains fast
+U08,P02,2,Disappointed for mobile gaming: slow and laggy under load and gets hot and laggy in games
+U08,P03,2,Would not recommend for mobile gaming: the battery is weak and drains fast and slow and laggy under load
+U08,P05,2,Regret buying this for mobile gaming: gets hot and laggy in games and slow and laggy under load
+U08,P06,3,Mixed feelings for mobile gaming: long battery life is great but slow and laggy under load
+U08,P07,2,Would not recommend for mobile gaming: slow and laggy under load and gets hot and laggy in games
+U08,P08,2,Disappointed for mobile gaming: the battery is weak and drains fast and slow and laggy under load
+U08,P09,2,Would not recommend for mobile gaming: slow and laggy under load and gets hot and laggy in games
+U08,P10,5,Good pick for mobile gaming: fast and smooth performance and fast and smooth for games
+U08,P11,3,Mixed feelings for mobile gaming: long battery life is great but gets hot and laggy in games
+U08,P13,3,Decent choice for mobile gaming: long battery life is great but gets hot and laggy in games
+U08,P14,5,Really like it for mobile gaming: fast and smooth performance and long battery life is great
+U08,P15,3,Decent choice for mobile gaming: long battery life is great but slow and laggy under load
+U08,P19,3,It is okay for mobile gaming: long battery life is great but slow and laggy under load
+U09,L01,3,It is okay for software development: smooth and fast for coding but the keyboard is poor
+U09,L02,3,Decent choice for software development: smooth and fast for coding but the keyboard is poor
+U09,L03,2,Disappointed for software development: the keyboard is poor and buggy and unreliable
+U09,L06,2,Regret buying this for software development: buggy and unreliable and slow and laggy under load
+U09,L07,2,Would not recommend for software development: the keyboard is poor and slow and laggy under load
+U09,L08,2,Would not recommend for software development: slow and laggy under load and buggy and unreliable
+U09,L10,3,Mixed feelings for software development: fast and smooth performance but the keyboard is poor
+U09,L12,2,Disappointed for software development: slow and laggy when compiling code and buggy and unreliable
+U09,L15,3,It is okay for software development: acceptable overall but the keyboard is poor
+U09,L16,2,Regret buying this for software development: the keyboard is poor and slow and laggy under load
+U09,L20,2,Disappointed for software development: the keyboard is poor and slow and laggy under load
+U09,P01,2,Regret buying this for software development: buggy and unreliable and slow and laggy when compiling code
+U09,P03,3,Mixed feelings for software development: solid and reliable but slow and laggy when compiling code
+U09,P08,3,Mixed feelings for software development: solid and reliable but slow and laggy under load
+U09,P17,2,Would not recommend for software development: slow and laggy under load and slow and laggy when compiling code
+U09,P19,2,Regret buying this for software development: the keyboard is poor and buggy and unreliable
+U10,L02,2,Would not recommend for my parents: buggy and unreliable and too expensive for what it offers
+U10,L16,2,Would not recommend for my parents: buggy and unreliable and too expensive for what it offers
+U10,L19,1,Regret buying this for my parents: buggy and unreliable and the battery is weak and drains fast and too expensive for what it offers
+U10,P02,2,Regret buying this for my parents: the battery is weak and drains fast and too expensive for what it offers
+U10,P03,3,Mixed feelings for my parents: great value and worth the price but the battery is weak and drains fast
+U10,P04,3,Decent choice for my parents: long battery life is great but too expensive for what it offers
+U10,P05,1,Disappointed for my parents: the battery is weak and drains fast and buggy and unreliable and too expensive for what it offers
+U10,P07,3,Decent choice for my parents: long battery life is great but buggy and unreliable
+U10,P08,1,Disappointed for my parents: the battery is weak and drains fast and too expensive for what it offers
+U10,P09,3,Decent choice for my parents: solid and reliable but the battery is weak and drains fast
+U10,P11,3,Decent choice for my parents: great value and worth the price but buggy and unreliable
+U10,P13,4,Really like it for my parents: long battery life is great and great value and worth the price
+U10,P15,4,Very satisfied for my parents: long battery life is great and great value and worth the price
+U10,P16,5,Very satisfied for my parents: long battery life is great and great value and worth the price
+U10,P18,1,Disappointed for my parents: too expensive for what it offers and buggy and unreliable
+U10,P19,1,Would not recommend for my parents: too expensive for what it offers and buggy and unreliable
+U11,L07,3,Decent choice as my main device: the screen is bright and sharp but noisy and distracting to use
+U11,L08,2,Disappointed as my main device: feels cheap and flimsy and noisy and distracting to use
+U11,L10,4,Really like it as my main device: the screen is bright and sharp and premium and sturdy build
+U11,L13,3,Decent choice as my main device: the screen is bright and sharp but noisy and distracting to use
+U11,L16,4,Good pick as my main device: the screen is bright and sharp and premium and sturdy build
+U11,L19,3,It is okay as my main device: the screen is bright and sharp but the camera is poor in low light
+U11,P03,2,Regret buying this as my main device: the camera is poor in low light and noisy and distracting to use
+U11,P04,5,Very satisfied as my main device: the camera is sharp and amazing and premium and sturdy build
+U11,P05,3,Decent choice as my main device: the camera is sharp and amazing but noisy and distracting to use
+U11,P07,2,Regret buying this as my main device: noisy and distracting to use and the screen is dim
+U11,P08,5,Really like it as my main device: the camera is sharp and amazing and the screen is bright and sharp
+U11,P10,3,It is okay as my main device: the screen is bright and sharp but feels cheap and flimsy
+U11,P12,3,Decent choice as my main device: the camera is sharp and amazing but the screen is dim
+U11,P14,3,Mixed feelings as my main device: the screen is bright and sharp but noisy and distracting to use
+U11,P15,3,Decent choice as my main device: the screen is bright and sharp but the camera is poor in low light
+U11,P17,4,Really like it as my main device: premium and sturdy build and the camera is sharp and amazing
+U11,P19,4,Happy with this as my main device: premium and sturdy build and the screen is bright and sharp
+U11,P20,2,Disappointed as my main device: the screen is dim and noisy and distracting to use
+U12,L04,2,Disappointed for travel vlogs: the camera is poor in low light and bulky in the pocket and too expensive for what it offers
+U12,L06,4,Good pick for travel vlogs: very light and easy to carry and long battery life is great
+U12,L11,1,Disappointed for travel vlogs: bulky in the pocket and feels heavy and bulky and too expensive for what it offers
+U12,L12,2,Disappointed for travel vlogs: the battery is weak and drains fast and the camera is poor in low light
+U12,L16,3,Decent choice for travel vlogs: long battery life is great but bulky in the pocket
+U12,P01,3,Mixed feelings for travel vlogs: the camera is sharp and amazing but the battery is weak and drains fast
+U12,P04,3,It is okay for travel vlogs: long battery life is great but bulky in the pocket
+U12,P07,3,Mixed feelings for travel vlogs: long battery life is great but feels heavy and bulky
+U12,P08,3,Mixed feelings for travel vlogs: the camera is sharp and amazing but bulky in the pocket
+U12,P09,4,Good pick for travel vlogs: the camera is sharp and amazing and compact and light in the pocket
+U12,P12,3,Mixed feelings for travel vlogs: compact and light in the pocket but feels heavy and bulky
+U12,P15,3,Mixed feelings for travel vlogs: long battery life is great but bulky in the pocket
+U12,P16,4,Good pick for travel vlogs: long battery life is great
+U12,P17,2,Regret buying this for travel vlogs: feels heavy and bulky and the battery is weak and drains fast and too expensive for what it offers
+U12,P18,3,Mixed feelings for travel vlogs: compact and light in the pocket but the battery is weak and drains fast
+U12,P19,4,Happy with this for travel vlogs: long battery life is great and the camera is sharp and amazing
+U13,L02,1,Disappointed for office work: the keyboard is poor and too expensive for what it offers
+U13,L03,1,Would not recommend for office work: too expensive for what it offers and the keyboard is poor
+U13,L06,2,Disappointed for office work: the keyboard is poor and buggy and unreliable and too expensive for what it offers
+U13,L08,5,Really like it for office work: great value and worth the price and smooth for everyday office work
+U13,L10,1,Would not recommend for office work: too expensive for what it offers and the keyboard is poor
+U13,L11,2,Disappointed for office work: buggy and unreliable and slow for everyday office work and too expensive for what it offers
+U13,L13,1,Would not recommend for office work: the keyboard is poor and slow for everyday office work and too expensive for what it offers
+U13,L15,1,Disappointed for office work: the keyboard is poor and too expensive for what it offers
+U13,L17,5,Very satisfied for office work: the keyboard is comfortable and great value and worth the price
+U13,L18,2,Would not recommend for office work: slow for everyday office work and too expensive for what it offers
+U13,L20,3,Decent choice for office work: great value and worth the price but buggy and unreliable
+U13,P02,2,Would not recommend for office work: slow for everyday office work and too expensive for what it offers
+U13,P08,2,Regret buying this for office work: too expensive for what it offers and slow for everyday office work
+U13,P10,1,Would not recommend for office work: slow for everyday office work and buggy and unreliable and too expensive for what it offers
+U13,P14,1,Regret buying this for office work: buggy and unreliable and too expensive for what it offers
+U13,P16,4,Really like it for office work: solid and reliable and great value and worth the price
+U13,P18,1,Regret buying this for office work: buggy and unreliable and too expensive for what it offers
+U14,L01,4,Very satisfied for watching videos: premium and sturdy build and long battery life is great
+U14,L07,4,Good pick for watching videos: long battery life is great and the screen is bright and sharp
+U14,L08,2,Would not recommend for watching videos: the screen is dim and the battery is weak and drains fast
+U14,L09,3,Mixed feelings for watching videos: long battery life is great but feels cheap and flimsy
+U14,L15,3,Decent choice for watching videos: long battery life is great but feels cheap and flimsy
+U14,L20,2,Regret buying this for watching videos: feels cheap and flimsy and the screen is dim
+U14,P01,5,Really like it for watching videos: the screen is bright and sharp and premium and sturdy build
+U14,P05,3,Mixed feelings for watching videos: the screen is bright and sharp but the battery is weak and drains fast
+U14,P06,4,Good pick for watching videos: the screen is bright and sharp and long battery life is great
+U14,P09,2,Regret buying this for watching videos: the screen is dim and the battery is weak and drains fast
+U14,P11,3,Decent choice for watching videos: long battery life is great but the screen is dim
+U14,P12,3,Decent choice for watching videos: premium and sturdy build but the battery is weak and drains fast
+U14,P14,3,Mixed feelings for watching videos: the screen is bright and sharp but feels cheap and flimsy
+U14,P15,4,Very satisfied for watching videos: the screen is bright and sharp and long battery life is great
+U14,P16,3,Decent choice for watching videos: long battery life is great but the screen is dim
+U14,P19,5,Really like it for watching videos: long battery life is great and premium and sturdy build
+U14,P20,3,Decent choice for watching videos: long battery life is great but the screen is dim
